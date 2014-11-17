@@ -1,6 +1,3 @@
-QT       += core qtestlib
-TARGET = QAutoTest
-
 TEMPLATE = subdirs
 
 SUBDIRS += \

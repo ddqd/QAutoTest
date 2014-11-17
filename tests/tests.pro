@@ -1,4 +1,4 @@
-QT += qtestlib
+QT += testlib widgets
 
 HEADERS += \
     comparetest.h \

@@ -2,13 +2,11 @@
 #include <QTest>
 #include "../Calc/compare.h"
 CompareTest::CompareTest(QObject *parent) :
-  QObject(parent)
-{
+  QObject(parent) {
 
 }
 
-void CompareTest::min()
-{
+void CompareTest::min() {
   Compare a;
   QCOMPARE(a.min(1,   0), 0);
   QCOMPARE(a.min(-1,  1), -1);
